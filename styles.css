@@ -1,0 +1,337 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex{
+  display: flex;
+}
+.wardrobe{
+  display: flex;
+}
+.gap{
+  gap: 10px;
+}
+.gap-10{
+  gap: 240px;
+  justify-content: space-around;
+  display: flex;
+}
+.overlay{
+background-color: rgba(0, 0, 0, 0.114);
+width: 100%;
+height: 600px;
+}
+.overlay2{
+  background-color: rgba(0, 0, 0, 0.201);
+  width: 100%;
+  height: 300px;
+  }
+.none-2{
+  display: none;
+}
+  .wardrobe{
+    background-image: url(../puma/images/bg-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+
+.bg1 img{
+  width: 100%;
+}
+.bg1-text{
+  position: absolute;
+  width: 50%;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  line-height: 1.1px;
+
+  right: 0%;
+    bottom: 19%;
+  padding: 4rem;
+}
+.bg1-text h1{
+  font-size: 40px;
+  line-height: 1.33px;
+}
+
+.bg1-text p{
+  font-size: 24px;
+}
+.btn1{
+  background-color: #181818;
+  color: white;
+  font-size: 16px;
+  padding: 0.5rem 1.25rem;
+}
+.arrival{
+  height: 500px;
+  padding: 20px;
+}
+.arrive-text{
+  width: 400px;
+  height: 30px;
+  padding: 0 2rem;
+}
+
+.arrive-shoe{
+  height: 250px;
+  width: 100%;
+  padding: 20px;
+  margin-left: 10px;
+}
+.arrive-shoe img{
+  height: 250px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.fafa{
+  background-color: #fafafa;
+  border-left: 2px solid black;
+}
+.fafa span{
+  font-size: 13px;
+  padding: 5px;
+}
+.speed{
+  align-items: center;
+  justify-content: space-between;
+}
+.speed h3, span{
+  font-size: 16px;
+}
+.category{
+  padding: 2rem;
+}
+.category-2{
+  padding: 2;
+}
+.category h3{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 32px;
+}
+.col1{
+  background-image: url(../puma/images/red-trouser.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 50%;
+  position: relative;
+}
+.col1 h1{
+position: absolute;
+bottom: 0;
+left: 0;
+color: white;
+padding: 10px;
+margin: 10px;
+}
+.size{
+  font-size: 8px;
+}
+
+.col2{
+  background-image: url(../puma/images/yellowshoe.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 50%;
+  position: relative;
+}
+
+.col3{
+  background-image: url(../puma/images/col-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 50%;
+  position: relative;
+}
+.col4{
+  background-image: url(../puma/images/col-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 50%;
+  position: relative;
+}
+.col5{
+  background-image: url(../puma/images/col-5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 50%;
+  position: relative;
+}
+.col6{
+  background-image: url(../puma/images/col-6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 50%;
+  position: relative;
+}
+.col7{
+  background-image: url(../puma/images/running.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 50%;
+  position: relative;
+}
+.col8{
+  background-image: url(../puma/images/soccer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 50%;
+  position: relative;
+}
+.col9{
+  background-image: url(../puma/images/bsaketball.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 50%;
+  position: relative;
+}
+.col10{
+  background-image: url(../puma/images/training.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 50%;
+  position: relative;
+}
+
+.arrive-text{
+  width: 400px;
+  height: 30px;
+  padding: 0 2rem;
+}
+.arrive-shoe{
+  height: 250px;
+  width: 100%;
+  padding: 20px;
+  margin-left: 10px;
+}
+.arrive-shoe img{
+  height: 250px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.fit{
+  border: 1px solid #efefef;
+  height: 300px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.under{
+  border-bottom: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+.under span{
+  font-size: 13px;
+}
+.menfit{
+  height: 100px;
+  align-items: center;
+  display: flex;
+  padding: 30px;
+}
+.grid{
+  display: grid;
+}
+.puma-section{
+  grid-template-columns: 1fr 2fr 2fr;
+  height: 400px;
+  padding: 50px;
+  margin-top: -85px;
+}
+.sec-1{
+  grid-template-rows: 1fr 1fr;
+}
+.sec-col1{
+  background-image: url(images/col-14.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+  margin-right: 20px;
+margin-bottom: 20px;
+}
+.sec-col2{
+  background-image: url(images/col-15.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lime;
+  height: 200px;
+  margin-right: 20px;
+}
+.sec-2{
+  background-image: url(images/col-16.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: gold;
+  height: 400px;
+  margin-right: 20px;
+}
+.sec-3{
+  background-image: url(images/col-17.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: green;
+  height: 400px;
+}
+.kicks{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1rem;
+  height: 250px;
+  margin-top: 10px;
+}
+.kicks h2{
+  line-height: 1.1rem;
+}
+.btn2{
+  background-color: white;
+  color: black;
+  border: 0.8px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+
